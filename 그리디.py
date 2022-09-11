@@ -81,3 +81,37 @@ while n > 1:
     result += 1
 
 print(result)"""
+
+
+######################## 3장 문제 ########################
+
+
+# 모험가 길드
+# n = int(input())
+#
+# fear = list(map(int, input().split()))
+#
+# fear.sort()
+#
+# result = 0 # 총 그룹의 수
+# count = 0 # 현재 그룹의 인원 수
+#
+# for horror in fear:
+#     count += 1  # 현재 그룹의 인원 추가
+#     if (count >= horror):
+#         result += 1
+#         count = 0
+#
+# print(result)
+
+# 곱하기 혹은 더하기
+# s = list(map(int,input()))
+#
+# result = s[0]
+#
+# for i in range(1, len(s)): # 두번째 정수부터 탐색 시작
+#     if(s[i] <= 1 or result <= 1):
+#         result += s[i]
+#     else:
+#         result *= s[i]
+# print(result)
