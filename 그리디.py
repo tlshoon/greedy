@@ -138,7 +138,17 @@ print(result)"""
 # print(min(count0,count1))
 
 # 만들 수 없는 금액
-
+# n = int(input())
+# data = list(map(int,input().split()))
+# data.sort()
+#
+# target = 1
+# for i in data:
+#     if target < i:
+#         break
+#     cnt += i  # 목푯값 갱신
+#
+# print(target)
 
 
 # 볼링공 고르기
