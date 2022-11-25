@@ -146,11 +146,22 @@ print(result)"""
 # for i in data:
 #     if target < i:
 #         break
-#     cnt += i  # 목푯값 갱신
+#     target += i  # 목푯값 갱신
 #
 # print(target)
 
-
 # 볼링공 고르기
+# n, m = map(int,input().split())
+#
+# data = list(map(int,input().split()))
+# 
+#
+# cnt = 0
+#
+# for i in range(len(data)-1):
+#     for j in range(i+1,len(data)):
+#         if data[i] != data[j]:
+#             cnt += 1
+# print(cnt)
 
 # 무지의 먹방 라이브
